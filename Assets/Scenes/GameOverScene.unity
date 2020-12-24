@@ -170,7 +170,6 @@ MonoBehaviour:
   themeController: {fileID: 0}
   playerController: {fileID: 0}
   endlessController: {fileID: 0}
-  shopController: {fileID: 0}
   uiController: {fileID: 606333779}
   uiShopController: {fileID: 0}
   uiGameController: {fileID: 0}
@@ -765,7 +764,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 606333779}
-        m_MethodName: OnMenuButtonClick
+        m_MethodName: OnMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -974,7 +973,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 606333779}
-        m_MethodName: OnStartButtonClick
+        m_MethodName: OnStart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

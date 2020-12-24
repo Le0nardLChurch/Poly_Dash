@@ -976,7 +976,7 @@ PrefabInstance:
     - target: {fileID: 4192602853207449087, guid: 90c8d73e0d61d984ba93c3cb1a3ae4de,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnNextLvlButtonClick
+      value: OnNextLvl
       objectReference: {fileID: 0}
     - target: {fileID: 6115321851459394319, guid: 90c8d73e0d61d984ba93c3cb1a3ae4de,
         type: 3}
@@ -986,13 +986,18 @@ PrefabInstance:
     - target: {fileID: 6115321851459394319, guid: 90c8d73e0d61d984ba93c3cb1a3ae4de,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnStartButtonClick
+      value: OnReset
       objectReference: {fileID: 0}
     - target: {fileID: 8841210401100777751, guid: 90c8d73e0d61d984ba93c3cb1a3ae4de,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 537761863}
+    - target: {fileID: 8841210401100777751, guid: 90c8d73e0d61d984ba93c3cb1a3ae4de,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnShop
+      objectReference: {fileID: 0}
     - target: {fileID: 459099662182555515, guid: 90c8d73e0d61d984ba93c3cb1a3ae4de,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1001,7 +1006,7 @@ PrefabInstance:
     - target: {fileID: 459099662182555515, guid: 90c8d73e0d61d984ba93c3cb1a3ae4de,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnStartButtonClick
+      value: OnReset
       objectReference: {fileID: 0}
     - target: {fileID: 1751161952821896499, guid: 90c8d73e0d61d984ba93c3cb1a3ae4de,
         type: 3}
@@ -1013,6 +1018,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 537761863}
+    - target: {fileID: 7615902013719200605, guid: 90c8d73e0d61d984ba93c3cb1a3ae4de,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnMenu
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90c8d73e0d61d984ba93c3cb1a3ae4de, type: 3}
 --- !u!114 &612603443129411837 stripped
@@ -1309,6 +1319,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
+    - target: {fileID: 7787145566111843074, guid: 962bfc15a4ef5d847a80acf60aa2ce5b,
+        type: 3}
+      propertyPath: masterSlider
+      value: 
+      objectReference: {fileID: 658638506}
+    - target: {fileID: 7787145566111843074, guid: 962bfc15a4ef5d847a80acf60aa2ce5b,
+        type: 3}
+      propertyPath: effectsSlider
+      value: 
+      objectReference: {fileID: 735213875}
+    - target: {fileID: 7787145566111843074, guid: 962bfc15a4ef5d847a80acf60aa2ce5b,
+        type: 3}
+      propertyPath: musicSlider
+      value: 
+      objectReference: {fileID: 1540939332}
     - target: {fileID: 7787145566111843075, guid: 962bfc15a4ef5d847a80acf60aa2ce5b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1364,21 +1389,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7787145566111843074, guid: 962bfc15a4ef5d847a80acf60aa2ce5b,
-        type: 3}
-      propertyPath: masterSlider
-      value: 
-      objectReference: {fileID: 658638506}
-    - target: {fileID: 7787145566111843074, guid: 962bfc15a4ef5d847a80acf60aa2ce5b,
-        type: 3}
-      propertyPath: effectsSlider
-      value: 
-      objectReference: {fileID: 735213875}
-    - target: {fileID: 7787145566111843074, guid: 962bfc15a4ef5d847a80acf60aa2ce5b,
-        type: 3}
-      propertyPath: musicSlider
-      value: 
-      objectReference: {fileID: 1540939332}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 962bfc15a4ef5d847a80acf60aa2ce5b, type: 3}
 --- !u!1001 &7829675056025215747
